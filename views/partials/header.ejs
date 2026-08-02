@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <title>myBooks</title>
+  </head>
+  <body>
+    <header class="p-3 text-bg-light">
+      <div class="container" bis_skin_checked="1">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+          bis_skin_checked="1"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 16 16"
+              class="me-2"
+            >
+              <!-- Kitap Kapağı (Mavi) -->
+              <path
+                d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v11A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-11z"
+                fill="#0d6efd"
+              />
+              <!-- Kitap Arka Kapağı (Sarı) -->
+              <path
+                d="M9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v11a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-11z"
+                fill="#ffc107"
+              />
+              <!-- Sayfa Ayrıntıları (Beyaz) -->
+              <path d="M7 3h2v10H7V3z" fill="#ffffff" />
+            </svg>
+          </a>
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="/" class="nav-link px-2 text-dark">Home</a>
+            </li>
+          </ul>
+          <form
+            class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"
+            role="search"
+            action="/"
+            method="get"
+          >
+            <input
+              type="search"
+              class="form-control form-control-dark text-bg-light"
+              placeholder="Search..."
+              aria-label="Search"
+              name="search"
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
